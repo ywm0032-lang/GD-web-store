@@ -12,6 +12,7 @@ and this project intends to follow semantic versioning.
 
 - Initial project repository.
 - Initial project documentation.
+- - Added Geode mod metadata file (`mod.json`).
 
 ### Planned
 
