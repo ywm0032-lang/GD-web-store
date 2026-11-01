@@ -1,0 +1,20 @@
+{
+  "geode": "v4.6.2",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074"
+  },
+  "id": "ywm03mainacc.gd-web-store",
+  "name": "GD Web Store",
+  "version": "v0.1.0",
+  "developer": "Ywm03Mainacc",
+  "description": "A sandboxed extension store and runtime for Geode.",
+  "tags": ["utility", "interface", "enhancement"],
+  "settings": {
+    "show-store-button": {
+      "name": "Show GD Web Store button",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
