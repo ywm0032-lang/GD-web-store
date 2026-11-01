@@ -31,7 +31,7 @@ class $modify(GDWebStoreMenuLayer, MenuLayer) {
             menu_selector(GDWebStoreMenuLayer::onOpenStore)
         );
 
-        button->setID("ywm03mainacc.gd-web-store/open-button");
+        button->setID("ywm0032-lang.gd-web-store/open-button");
 
         auto menu = this->getChildByID("bottom-menu");
         if (menu) {
