@@ -1,0 +1,26 @@
+name: Build GD Web Store
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Build Android64 mod
+        id: build
+        uses: geode-sdk/build-geode-mod@main
+        with:
+          target: Android64
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: gd-web-store-android64
+          path: ${{ steps.build.outputs.build-output }}
