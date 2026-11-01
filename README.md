@@ -1,4 +1,6 @@
 # GD Web Store
+**Developer:** Ywm03Mainacc  
+**GitHub:** [ywm0032-lang](https://github.com/ywm0032-lang)
 
 **GD Web Store** is an independent, fan-made extension platform for
 [Geode](https://geode-sdk.org), inspired by the Chrome Web Store model.
