@@ -14,6 +14,7 @@ and this project intends to follow semantic versioning.
 
 ### Planned
 
+- GitHub Actions build workflow for Android64.
 - Basic Geode mod project.
 - GD Web Store popup.
 - Store button in the Geometry Dash main menu.
